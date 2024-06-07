@@ -1,3 +1,9 @@
+<p align="left">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/header.png"
+  >
+</p>
+
 # Football Manager 2012: Application for Predicting Footballer's Value Based on Their In-Game Attributes
 
 Football Manager is a game with a large database of football players. There are managers from the "real-world" that admitted using the Football Manager games in order to create their club's transfer list.
@@ -50,7 +56,7 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
     <th> ℹ Details  </th>
   </tr>
   <tr>
-    <td>Jupyter Notebook using Anaconda Navigator</td>
+    <td>Jupyter Notebook</td>
     <td>Python</td>
     <td>Data Cleaning, Artificial Neural Network</td>
     <td>Tensorflow</td>
@@ -90,3 +96,11 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
    </td>
   </tr>
 </table>
+
+### Results
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img1.PNG"
+  >
+</p>
