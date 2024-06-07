@@ -99,8 +99,59 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
 
 ### Results
 
+After running the executable file of the application, the first window of the application is a 4-2-3-1 formation that allows the user to pick a position from the field.
+For example, if the user selects "Striker", the app will display the list of strikers from the game, with their attributes, age, value and <b>predicted value</b>. In this
+iteration, only the "Striker" position can be chosen. The main reason of creating lists for different positions is because, for each position, there are other relevant attributes.
+For instance, the neural network that predicts a striker's value, would not work for a goalkeeper, since for a goalkeeper, there are other attributes taken into consideration (Reflexes, Communication,
+Handling, Kicking).
+
 <p align="center">
   <img 
     src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img1.PNG"
+    width = "700"
+    height = "auto"
   >
 </p>
+
+After pressing the "Striker" button, a new window opens. The window contains, in the bottom half, a list of strikers with their age, position, value, predicted value and difference (between predicted value and real value). 
+If the difference is a negative number (less than 0), it means the football player's value is probably overrated. If the difference is a positive number (greater than 0), it means the football player is underrated. 
+The top half of the window contains some basic filters that can be applied in order to generate the desired list. For instance, for a club from Romania, search footballers with age under 21, that have an in-game price of 1.5 mil. dollars. It will generate a list of players, and the players that a club should be targetting, are the players with a positive difference between predicted value and real value.
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img2.PNG"
+    width = "700"
+    height = "auto"
+  >
+</p>
+
+The user can view a player's attributes, by click its name from the list. A new window is opened, that contains the following information: 
+<ul>
+  <li>footballer name</li>
+  <li>position</li>
+  <li>in-game attributes (from 1 to 20)</li>
+  <li>in-game value</li>
+  <li>in-game predicted value</li>
+  <li>difference between predicted value and in-game value</li>
+</ul>
+
+The following is a comparison between 2 players, Fernando Torres and Fraco Jara. Both players have close to similar attributes, but Torres has an in-game value of 80 mil. dollars,
+while Jara has an in-game value of 5 mil. dollars. The predicted value (of the neural network) for Torres is approx. 54 mil. dollars, while Jara has a predicted value of 41 mil. dollars.
+Therefore, if a club wants to buy Torres, it should spend almost 80 mil. dollars to buy a player that has a value with 25 mil. more than it should be, based on his abilities. On the other hand,
+a club willing to spend approx. 5 mil. dollars for Franco Jara, would acquire a football player that has the potential of a 46 mil. dollars player.
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img4.PNG"
+    width = "700"
+    height = "auto"
+  >
+</p>
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img3.PNG"
+    width = "700"
+    height = "auto"
+  >
+</p>
+
