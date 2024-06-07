@@ -157,3 +157,31 @@ Torres has an in-game value of 80 mil. dollars, while Jara has an in-game value 
 Therefore, if a club wants to buy Torres, it should spend almost 80 mil. dollars to buy a player that has a value with 25 mil. more than it should be, based on his abilities. On the other hand,
 a club willing to spend approx. 5 mil. dollars for Franco Jara, would acquire a football player that has the potential of a 46 mil. dollars player.
 
+
+### Icons
+
+<ul>
+  <li><a href="https://www.flaticon.com/free-icons/goal" title="goal icons">Goal icons created by Freepik - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/runner" title="runner icons">Runner icons created by Leremy - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/jump" title="jump icons">Jump icons created by Leremy - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/goalkeeper" title="goalkeeper icons">Goalkeeper icons created by Muhammad_Usman - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/inspiration" title="inspiration icons">Inspiration icons created by photo3idea_studio - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/brain" title="brain icons">Brain icons created by Freepik - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/dollar-sign" title="dollar sign icons">Dollar sign icons created by Freepik - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/hourglass" title="hourglass icons">Hourglass icons created by Freepik - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/prediction" title="prediction icons">Prediction icons created by Parzival’ 1997 - Flaticon</a></li>
+  <li><a href="https://www.flaticon.com/free-icons/profit" title="profit icons">Profit icons created by nawicon - Flaticon</a></li> 
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
