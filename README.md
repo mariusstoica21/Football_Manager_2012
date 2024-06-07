@@ -116,14 +116,18 @@ After pressing the "Striker" button, a new window opens. The window contains, in
 If the difference is a negative number (less than 0), it means the football player's value is probably overrated. If the difference is a positive number (greater than 0), it means the football player is underrated. 
 The top-left half of the window contains some basic filters that can be applied in order to generate the desired list. For instance, for a club from Romania, search footballers with age under 21, that have an in-game price of 1.5 mil. dollars. It will generate a list of players, and the players that a club should be targetting, are the players with a positive difference between predicted value and real value.
 
-The top-right half contains the player's attributes, by click its name from the list. A new window is opened, that contains the following information: 
+The top-left half displays also information like:
 <ul>
-  <li>footballer name</li>
+  <li>value</li>
+  <li>predicted value</li>
+  <li>difference (between predicted value and real value)</li>
+</ul>
+
+The top-right half contains the player's following information: 
+<ul>
+  <li>name</li>
   <li>position</li>
   <li>in-game attributes (from 1 to 20)</li>
-  <li>in-game value</li>
-  <li>in-game predicted value</li>
-  <li>difference between predicted value and in-game value</li>
 </ul>
 
 <p align="center">
