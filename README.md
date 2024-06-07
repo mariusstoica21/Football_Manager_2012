@@ -1,4 +1,4 @@
-# Football Manager 2012 Application for Predicting Footballer's Value Based on Their In-Game Attributes
+# Football Manager 2012: Application for Predicting Footballer's Value Based on Their In-Game Attributes
 
 Football Manager is a game with a large database of football players. There are managers from the "real-world" that admitted using the Football Manager games in order to create their club's transfer list.
 Therefore, the data in the game is pretty accurate, especially in the top-tier leagues (there is a good change that the players from top 4 ranked leagues in the world have in-game attributes)
@@ -35,14 +35,10 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
 - 📄 [Concatenation_League](https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Demo/Concatenation_Leagues.ipynb): import the dataframes of the leagues and concatenate them.
 - 📄 [Price_Prediction.ipynb](https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Demo/Price_Prediction.ipynb): creates a model for the strikers, and a dataset that contains the actual value of the strikers, and the predicted value of the strikers.
     
-📁 Full : contains the Pythons scripts.
-
-    📄 Documentation.pdf
-    📄 Documentation.pdf
-    📄 Documentation.pdf
-    📁 Demo : contains scripts 
-    📁 Demo : contains scripts
-
+📁 Full : contains the Python scripts used in the original program, that uses information from more than 30 leagues.
+- 📄 [Extract_League.ipynb](https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Full/Extract_League.ipynb): same as the Demo version, but not runnable.
+- 📄 [Concatenation_League](https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Full/Concatenation_Leagues.ipynb): same as the Demo version, but not runnable.
+- 📄 [Price_Prediction.ipynb](https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Full/Price_Prediction.ipynb): same as the Demo version, but not runnable.
 ### Technologies
 
 <table>
@@ -54,45 +50,17 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
     <th> ℹ Details  </th>
   </tr>
   <tr>
-    <td>Xilinx Vivado 2020</td>
-    <td>VHDL</td>
-    <td>Artificial neurnal network</td>
-    <td>Basys3 FPGA board, HTerm</td>
-    <td>
-       <ul>
-        <li>The input of the NN and the model (weights and biases) are send from the PC to the FPGA, using HTerm.</li>
-        <li>The values of the two files are stored in the block RAM memory of the FPGA.</li>
-        <li>The values are represented in fixed point representation.</li>
-         <li>The detection is made using a FSM (finite state machine).</li>
-         <li>The output of the NN is showed on the SSD (seven segment display) of the FPGA.</li>
-      </ul>
-   </td>
-  </tr>
-  <tr>
     <td>Jupyter Notebook using Anaconda Navigator</td>
     <td>Python</td>
-    <td>Convolutional neurnal network, Optical character recognition</td>
-    <td>Tensorflow, Tesseract</td>
+    <td>Data Cleaning, Artificial Neural Network</td>
+    <td>Tensorflow</td>
     <td>
        <ul>
-        <li>The convolutional neural network was trained</li>
-        <li>The model of the artificial neural network is send to the FPGA board.</li>
-        <li>The OCR Script classifies and localizes the digit in the image of the ID.</li>
-        <li>The images of the ID's are preprocessed, and using OCR, the digits are detected.</li>
-      </ul>
-   </td>
-  </tr>
-  <tr>
-    <td>Eclipse</td>
-    <td>Java</td>
-    <td>Automatization app</td>
-    <td>Winium, Inspect.exe, Winium Desktop Driver</td>
-    <td>
-       <ul>
-        <li>The automatization app has the purpose to send automatically the input and weights files to the FPGA board.</li>
-        <li>The automatizan app was created using Winium.</li>
-        <li>In order to detect the id and names of the buttons, the Inspect.exe tool is used.</li>
-        <li>In order to run the automatization app, the 9999 port has to be assigned, using Winium Desktop Driver.</li>
+        <li>Export .txt files for each league from Football Manager 2012.</li>
+        <li>Read the .txt files and parse into dataframes.</li>
+        <li>Concatenate the dataframes from each league, into a single dataframe.</li>
+        <li>Split the dataframes by positions: strikers dataframe, goalkeepers dataframe, defender left dataframe...</li>
+        <li>Create a Neural Network for each position: for e.g. strikers Neural Network that predicts Value based on their abilities</li>
       </ul>
    </td>
   </tr>
@@ -100,12 +68,11 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
     <td>Delphi</td>
     <td>Objective Pascal</td>
     <td>Desktop application</td>
-    <td>ImageButton</td>
+    <td></td>
     <td>
        <ul>
-        <li>The main advantage of using Delphi is the quickness in creating the desktop app, using the specialized objects.</li>
-        <li>The main disadvantage is the impossibility of colouring buttons.</li>
-        <li>This disadvantage was removed by implementing the ImageButton library, that allows using images on the background of the buttons.</li>
+        <li>Create an application that shows, for each position, the results of predicting the value for each footballer.</li>
+        <li>List each footballer's attributes, position, age, value, predicted value.</li>
       </ul>
    </td>
   </tr>
@@ -116,9 +83,9 @@ In order to run the scripts from the Demo folder, Jupyter Notebook shall be inst
     <td>XAMPP</td>
     <td>
        <ul>
-        <li>Information about users, original images and processed images are saved in the database.</li>
-        <li>Data are read from the database by the desktop application, using query's.</li>
-        <li>XAMPP allows the creation of a local MYSQL database.</li>
+        <li>Import the results of applying the neural network model on the datasets.</li>
+        <li>Data are loaded into the desktop application.</li>
+        <li>Queries are quicker than parsing JSON or XML.</li>
       </ul>
    </td>
   </tr>
