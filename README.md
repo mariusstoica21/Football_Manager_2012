@@ -1,8 +1,8 @@
 # Football Manager 2012: Application for Predicting Footballer's Value Based on Their In-Game Attributes
 
 Football Manager is a game with a large database of football players. There are managers from the "real-world" that admitted using the Football Manager games in order to create their club's transfer list.
-Therefore, the data in the game is pretty accurate, especially in the top-tier leagues (there is a good change that the players from top 4 ranked leagues in the world have in-game attributes)
-closer to the reality than the bottom-half ranked leagues in the world.
+Therefore, the data in the game is pretty accurate, especially in the top-tier leagues (there is a good change that the players from top 4 ranked leagues in the world have in-game attributes
+closer to the reality than the bottom-half ranked leagues in the world).
 
 The main purpose of the application is to determine the correct value of a football player, based on his attributes (Dribbling, Technique, Finishing, Acceleration, Agility...). 
 There are overrated footballers, who have an in-game value much higher that it should be, based on their abilities.  
