@@ -157,6 +157,47 @@ Torres has an in-game value of 80 mil. dollars, while Jara has an in-game value 
 Therefore, if a club wants to buy Torres, it should spend almost 80 mil. dollars to buy a player that has a value with 25 mil. more than it should be, based on his abilities. On the other hand,
 a club willing to spend approx. 5 mil. dollars for Franco Jara, would acquire a football player that has the potential of a 46 mil. dollars player.
 
+### Use-case
+
+As an example, we suppose a football club from Romania has a transfer budget of 2.0 million dollars in order to buy a striker. The club decides to buy a young striker, therefore the following filters are used:
+<ul>
+<li>Price is at most 2 mil. dollars</li>
+<li>Age is at most 23 years old</li>
+</ul>
+
+The neural network displayed a number of football players that matched the criteria, and there are 3 of the possible transfers:
+
+Borja Iglesias, currently playing at Bayer Leverkusen, has previosly played for Espanyol Barcelona and Betis Sevilla. Had a value of 1.7 mil. dollars, with a predicted value of 12 mil. dollars. 
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img11.PNG"
+    width = "800"
+    height = "auto"
+  >
+</p>
+
+Iago Aspas, played most of his time at Celta Vigo. He was also capped for Spain national team, where he has 20 matches. Had a value of 0.8 mil. dollars, with a predicted value of 4.4 mil. dollars. 
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img12.PNG"
+    width = "800"
+    height = "auto"
+  >
+</p>
+
+Ashley Barnes, currently playing at West Ham. He is an England international player. Had a value of 0.3 mil. dollars, with a predicted value of 3.3 mil. dollars. 
+
+<p align="center">
+  <img 
+    src="https://github.com/mariusstoica21/Football_Manager_2012/blob/main/Images/img13.PNG"
+    width = "800"
+    height = "auto"
+  >
+</p>
+
+The total sum needed to acquire all of these players was 2.8 mil dollars. The predicted price of all these 3 footballers was approx. 20 mil dollars. Of course, it is hard to believe that these young prospects would have come to Romania, and also the price needed to pay would have been a little bit higher. But, this use-case could be used as a proof that the neural network outputs valuable players, at a cost lower that it should be.
 
 ### Icons
 
