@@ -197,7 +197,7 @@ Ashley Barnes, currently playing at West Ham. He is an England international pla
   >
 </p>
 
-The total sum needed to acquire all of these players was 2.8 mil dollars. The predicted price of all these 3 footballers was approx. 20 mil dollars. Of course, it is hard to believe that these young prospects would have come to Romania, and also the price needed to pay would have been a little bit higher. But, this use-case could be used as a proof that the neural network outputs valuable players, at a cost lower that it should be.
+The total sum needed to acquire all of these players was 2.8 mil dollars. The predicted price of all these 3 footballers was approx. 20 mil dollars. Of course, it is hard to believe that these young prospects would have come to Romania, and also the price needed to pay would have been a little bit higher. But, this use-case could be used as a proof that the neural network outputs valuable players, at a cost lower than it should be.
 
 ### Icons
 
